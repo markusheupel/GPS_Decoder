@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "include/fileReader.hpp"
+#include "../includes/fileReader.hpp"
 using namespace std;
 
 int read(const char* filename, int* sumSignal){

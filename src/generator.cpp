@@ -7,6 +7,7 @@
 //
 
 #include <stdio.h>
+#include "../includes/generator.hpp"
 using namespace std;
 
 #define NELEMS(x)  (sizeof(x) / sizeof((x)[0])) // get size of array

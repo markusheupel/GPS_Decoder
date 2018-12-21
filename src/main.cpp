@@ -8,9 +8,9 @@
 
 #include <fstream>
 #include <stdio.h>
-#include "include/fileReader.hpp"
-#include "include/generator.hpp"
-#include "include/correlation.hpp"
+#include "../includes/fileReader.hpp"
+#include "../includes/generator.hpp"
+#include "../includes/correlation.hpp"
 using namespace std;
 
 #define satellites 24
@@ -20,7 +20,7 @@ using namespace std;
 int main(int argc, const char* argv[]) {
     
     const char* filename = argv[1];
-    //const char* filename = "/Users/markusheupel/Documents/embeddedLab/EmbeddedLab_GPS-Decoder/EmbeddedLab_GPS-Decoder/signal8.txt";
+    //const char* filename = "../assets/signal7.txt";
     int sumSignal[sumSignalSize];
     int chipSequence[chipSequenceSize];
     int shift;

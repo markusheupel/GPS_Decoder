@@ -1,3 +1,3 @@
 #!/bin/sh
 
-g++ main.cpp generator.cpp fileReader.cpp correlation.cpp -o decoder
+g++ src/main.cpp src/generator.cpp src/fileReader.cpp src/correlation.cpp -o decoder

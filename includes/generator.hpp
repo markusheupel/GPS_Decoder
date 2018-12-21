@@ -9,6 +9,6 @@
 #ifndef generator_hpp
 #define generator_hpp
 
-char generateCode(short satteliteID, int* chipSequence, int sumSignalSize);
+void generateCode(short satteliteID, int* chipSequence, int sumSignalSize);
 
 #endif /* generator_hpp */

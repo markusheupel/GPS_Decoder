@@ -6,7 +6,7 @@
 //  Copyright © 2018 Markus Heupel. All rights reserved.
 //
 
-#include "include/correlation.hpp"
+#include "../includes/correlation.hpp"
 using namespace std;
 
 #define codeSize 1023
